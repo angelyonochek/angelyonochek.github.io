@@ -1,0 +1,38 @@
+body {
+    margin-top:100px;
+    background-image: url(img/bcg-phone.jpg);
+    background-size: cover;
+}
+canvas {
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+}
+#start{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+    margin-top:50px;
+}
+#btn{
+    color: rgb(164, 238, 164);
+    font-size: 30px;
+    background-color: rgb(17, 68, 28);
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+
+}
+#btn:hover{color: rgb(164, 238, 164);background-color: rgb(36, 131, 57);}
+
+#mous{
+    width:600px;
+    height: 80px;
+    margin: auto;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(43, 92, 43);
+    font-family: 'Indie Flower', cursive;
+}
