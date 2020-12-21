@@ -13,7 +13,7 @@ food.src = "img/mous.png";  //путь к картинке
 let box = 50; //размер одной ячейки
 
 let score = 0; //общий счет
-//let button = document.getElementById('btn');
+
 let mous = {
     x: Math.floor((Math.random() * (13 - 1)) + 1) * box, //задаем координаты положения еды и умножаем на размер одной ячейки
 
@@ -156,7 +156,8 @@ function startGame() {
 }
 
 
-
+let buttonStart = document.querySelector('#btn');
+buttonStart.addEventListener("click", startGame);
 
 
 
